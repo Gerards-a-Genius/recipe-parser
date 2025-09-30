@@ -1,0 +1,15 @@
+{
+    "name": "recipe-parser",
+    "version": "1.0.0",
+    "description": "Parse recipes from websites and TikTok videos using Claude AI",
+    "type": "module",
+    "scripts": {
+          "start": "node parser.js",
+          "test": "node test.js"
+    },
+    "dependencies": {
+          "@anthropic-ai/sdk": "^0.20.0",
+          "puppeteer": "^21.0.0",
+          "dotenv": "^16.0.3"
+    }
+}
